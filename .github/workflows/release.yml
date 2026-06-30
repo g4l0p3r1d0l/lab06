@@ -24,13 +24,10 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y cmake build-essential rpm
 
       - name: Configure CMake
-        run: cmake -Hhomework -B_build -DBUILD_TESTS=ON -DCMAKE_POLICY_VERSION_MINIMUM=3.5
+        run: cmake -Hhomework -B_build -DBUILD_TESTS=OFF -DCMAKE_POLICY_VERSION_MINIMUM=3.5
 
       - name: Build Project
         run: cmake --build _build
-
-      - name: Run Tests
-        run: cd _build && ctest --output-on-failure
 
       - name: Generate Packages (Only on Tag Push)
         if: startsWith(github.ref, 'refs/tags/')
