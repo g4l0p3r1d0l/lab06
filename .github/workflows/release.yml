@@ -21,16 +21,16 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y cmake build-essential rpm
 
-      - name: Configure CMake
-        run: cmake -Hhomework -B_build -DBUILD_TESTS=OFF
-
-      - name: Build Project
-        run: cmake --build _build
+      - name: Configure and Build
+        run: |
+          cd homework
+          cmake -B _build -DBUILD_TESTS=OFF
+          cmake --build _build
 
       - name: Generate Packages (Only on Tag Push)
         if: startsWith(github.ref, 'refs/tags/')
         run: |
-          cd _build
+          cd homework/_build
           cpack -G TGZ
           cpack -G ZIP
           cpack -G DEB
@@ -41,9 +41,9 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            _build/*.tar.gz
-            _build/*.zip
-            _build/*.deb
-            _build/*.rpm
+            homework/_build/*.tar.gz
+            homework/_build/*.zip
+            homework/_build/*.deb
+            homework/_build/*.rpm
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

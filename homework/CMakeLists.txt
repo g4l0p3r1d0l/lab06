@@ -12,9 +12,11 @@ set(PRINT_VERSION_STRING "v${PRINT_VERSION}")
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} --coverage")
-
 add_subdirectory(banking)
+
+# Явно говорим CMake, что библиотеку нужно установить, иначе CPack упадет
+install(TARGETS banking DESTINATION lib)
+install(DIRECTORY banking/ DESTINATION include/banking FILES_MATCHING PATTERN "*.h")
 
 if(BUILD_TESTS)
   enable_testing()
