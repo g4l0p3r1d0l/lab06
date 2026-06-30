@@ -8,6 +8,10 @@ on:
   pull_request:
     branches: [ master, main ]
 
+# Явно разрешаем создавать релизы и загружать артефакты
+permissions:
+  contents: write
+
 jobs:
   build_and_pack:
     runs-on: ubuntu-latest
