@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mac/workspace/projects/lab05/homework/banking
+# Install script for directory: /Users/mac/workspace/projects/lab06/homework/banking
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/mac/workspace/projects/lab05/_build/banking/install_local_manifest.txt"
+  file(WRITE "/Users/mac/workspace/projects/lab06/_build/banking/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

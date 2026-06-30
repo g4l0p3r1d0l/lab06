@@ -4,9 +4,9 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/mac/workspace/projects/lab05/homework/banking -isystem /Users/mac/workspace/projects/lab05/homework/third-party/gtest/googletest/include -isystem /Users/mac/workspace/projects/lab05/homework/third-party/gtest/googletest -isystem /Users/mac/workspace/projects/lab05/homework/third-party/gtest/googlemock/include -isystem /Users/mac/workspace/projects/lab05/homework/third-party/gtest/googlemock
+CXX_INCLUDES = -I/Users/mac/workspace/projects/lab06/homework/banking
 
-CXX_FLAGSarm64 =  --coverage -std=gnu++17 -arch arm64 -Wno-error=maybe-uninitialized
+CXX_FLAGSarm64 =  --coverage -std=gnu++17 -arch arm64
 
-CXX_FLAGS =  --coverage -std=gnu++17 -arch arm64 -Wno-error=maybe-uninitialized
+CXX_FLAGS =  --coverage -std=gnu++17 -arch arm64
 

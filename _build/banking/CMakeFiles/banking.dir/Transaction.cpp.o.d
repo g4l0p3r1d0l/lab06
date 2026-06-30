@@ -1,6 +1,6 @@
 banking/CMakeFiles/banking.dir/Transaction.cpp.o: \
-  /Users/mac/workspace/projects/lab05/homework/banking/Transaction.cpp \
-  /Users/mac/workspace/projects/lab05/homework/banking/Transaction.h \
+  /Users/mac/workspace/projects/lab06/homework/banking/Transaction.cpp \
+  /Users/mac/workspace/projects/lab06/homework/banking/Transaction.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -798,4 +798,4 @@ banking/CMakeFiles/banking.dir/Transaction.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/mac/workspace/projects/lab05/homework/banking/Account.h
+  /Users/mac/workspace/projects/lab06/homework/banking/Account.h

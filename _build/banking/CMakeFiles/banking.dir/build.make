@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mac/workspace/projects/lab05/homework
+CMAKE_SOURCE_DIR = /Users/mac/workspace/projects/lab06/homework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mac/workspace/projects/lab05/_build
+CMAKE_BINARY_DIR = /Users/mac/workspace/projects/lab06/_build
 
 # Include any dependencies generated for this target.
 include banking/CMakeFiles/banking.dir/depend.make
@@ -73,32 +73,32 @@ banking/CMakeFiles/banking.dir/codegen:
 .PHONY : banking/CMakeFiles/banking.dir/codegen
 
 banking/CMakeFiles/banking.dir/Account.cpp.o: banking/CMakeFiles/banking.dir/flags.make
-banking/CMakeFiles/banking.dir/Account.cpp.o: /Users/mac/workspace/projects/lab05/homework/banking/Account.cpp
+banking/CMakeFiles/banking.dir/Account.cpp.o: /Users/mac/workspace/projects/lab06/homework/banking/Account.cpp
 banking/CMakeFiles/banking.dir/Account.cpp.o: banking/CMakeFiles/banking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mac/workspace/projects/lab05/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object banking/CMakeFiles/banking.dir/Account.cpp.o"
-	cd /Users/mac/workspace/projects/lab05/_build/banking && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT banking/CMakeFiles/banking.dir/Account.cpp.o -MF CMakeFiles/banking.dir/Account.cpp.o.d -o CMakeFiles/banking.dir/Account.cpp.o -c /Users/mac/workspace/projects/lab05/homework/banking/Account.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mac/workspace/projects/lab06/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object banking/CMakeFiles/banking.dir/Account.cpp.o"
+	cd /Users/mac/workspace/projects/lab06/_build/banking && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT banking/CMakeFiles/banking.dir/Account.cpp.o -MF CMakeFiles/banking.dir/Account.cpp.o.d -o CMakeFiles/banking.dir/Account.cpp.o -c /Users/mac/workspace/projects/lab06/homework/banking/Account.cpp
 
 banking/CMakeFiles/banking.dir/Account.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/banking.dir/Account.cpp.i"
-	cd /Users/mac/workspace/projects/lab05/_build/banking && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/workspace/projects/lab05/homework/banking/Account.cpp > CMakeFiles/banking.dir/Account.cpp.i
+	cd /Users/mac/workspace/projects/lab06/_build/banking && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/workspace/projects/lab06/homework/banking/Account.cpp > CMakeFiles/banking.dir/Account.cpp.i
 
 banking/CMakeFiles/banking.dir/Account.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/banking.dir/Account.cpp.s"
-	cd /Users/mac/workspace/projects/lab05/_build/banking && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/workspace/projects/lab05/homework/banking/Account.cpp -o CMakeFiles/banking.dir/Account.cpp.s
+	cd /Users/mac/workspace/projects/lab06/_build/banking && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/workspace/projects/lab06/homework/banking/Account.cpp -o CMakeFiles/banking.dir/Account.cpp.s
 
 banking/CMakeFiles/banking.dir/Transaction.cpp.o: banking/CMakeFiles/banking.dir/flags.make
-banking/CMakeFiles/banking.dir/Transaction.cpp.o: /Users/mac/workspace/projects/lab05/homework/banking/Transaction.cpp
+banking/CMakeFiles/banking.dir/Transaction.cpp.o: /Users/mac/workspace/projects/lab06/homework/banking/Transaction.cpp
 banking/CMakeFiles/banking.dir/Transaction.cpp.o: banking/CMakeFiles/banking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mac/workspace/projects/lab05/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object banking/CMakeFiles/banking.dir/Transaction.cpp.o"
-	cd /Users/mac/workspace/projects/lab05/_build/banking && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT banking/CMakeFiles/banking.dir/Transaction.cpp.o -MF CMakeFiles/banking.dir/Transaction.cpp.o.d -o CMakeFiles/banking.dir/Transaction.cpp.o -c /Users/mac/workspace/projects/lab05/homework/banking/Transaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mac/workspace/projects/lab06/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object banking/CMakeFiles/banking.dir/Transaction.cpp.o"
+	cd /Users/mac/workspace/projects/lab06/_build/banking && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT banking/CMakeFiles/banking.dir/Transaction.cpp.o -MF CMakeFiles/banking.dir/Transaction.cpp.o.d -o CMakeFiles/banking.dir/Transaction.cpp.o -c /Users/mac/workspace/projects/lab06/homework/banking/Transaction.cpp
 
 banking/CMakeFiles/banking.dir/Transaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/banking.dir/Transaction.cpp.i"
-	cd /Users/mac/workspace/projects/lab05/_build/banking && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/workspace/projects/lab05/homework/banking/Transaction.cpp > CMakeFiles/banking.dir/Transaction.cpp.i
+	cd /Users/mac/workspace/projects/lab06/_build/banking && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/workspace/projects/lab06/homework/banking/Transaction.cpp > CMakeFiles/banking.dir/Transaction.cpp.i
 
 banking/CMakeFiles/banking.dir/Transaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/banking.dir/Transaction.cpp.s"
-	cd /Users/mac/workspace/projects/lab05/_build/banking && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/workspace/projects/lab05/homework/banking/Transaction.cpp -o CMakeFiles/banking.dir/Transaction.cpp.s
+	cd /Users/mac/workspace/projects/lab06/_build/banking && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/workspace/projects/lab06/homework/banking/Transaction.cpp -o CMakeFiles/banking.dir/Transaction.cpp.s
 
 # Object files for target banking
 banking_OBJECTS = \
@@ -112,19 +112,19 @@ banking/libbanking.a: banking/CMakeFiles/banking.dir/Account.cpp.o
 banking/libbanking.a: banking/CMakeFiles/banking.dir/Transaction.cpp.o
 banking/libbanking.a: banking/CMakeFiles/banking.dir/build.make
 banking/libbanking.a: banking/CMakeFiles/banking.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mac/workspace/projects/lab05/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libbanking.a"
-	cd /Users/mac/workspace/projects/lab05/_build/banking && $(CMAKE_COMMAND) -P CMakeFiles/banking.dir/cmake_clean_target.cmake
-	cd /Users/mac/workspace/projects/lab05/_build/banking && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/banking.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mac/workspace/projects/lab06/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libbanking.a"
+	cd /Users/mac/workspace/projects/lab06/_build/banking && $(CMAKE_COMMAND) -P CMakeFiles/banking.dir/cmake_clean_target.cmake
+	cd /Users/mac/workspace/projects/lab06/_build/banking && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/banking.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 banking/CMakeFiles/banking.dir/build: banking/libbanking.a
 .PHONY : banking/CMakeFiles/banking.dir/build
 
 banking/CMakeFiles/banking.dir/clean:
-	cd /Users/mac/workspace/projects/lab05/_build/banking && $(CMAKE_COMMAND) -P CMakeFiles/banking.dir/cmake_clean.cmake
+	cd /Users/mac/workspace/projects/lab06/_build/banking && $(CMAKE_COMMAND) -P CMakeFiles/banking.dir/cmake_clean.cmake
 .PHONY : banking/CMakeFiles/banking.dir/clean
 
 banking/CMakeFiles/banking.dir/depend:
-	cd /Users/mac/workspace/projects/lab05/_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mac/workspace/projects/lab05/homework /Users/mac/workspace/projects/lab05/homework/banking /Users/mac/workspace/projects/lab05/_build /Users/mac/workspace/projects/lab05/_build/banking /Users/mac/workspace/projects/lab05/_build/banking/CMakeFiles/banking.dir/DependInfo.cmake "--color=$(COLOR)" banking
+	cd /Users/mac/workspace/projects/lab06/_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mac/workspace/projects/lab06/homework /Users/mac/workspace/projects/lab06/homework/banking /Users/mac/workspace/projects/lab06/_build /Users/mac/workspace/projects/lab06/_build/banking /Users/mac/workspace/projects/lab06/_build/banking/CMakeFiles/banking.dir/DependInfo.cmake "--color=$(COLOR)" banking
 .PHONY : banking/CMakeFiles/banking.dir/depend
 

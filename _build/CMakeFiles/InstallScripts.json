@@ -1,12 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/mac/workspace/projects/lab05/_build/cmake_install.cmake",
-		"/Users/mac/workspace/projects/lab05/_build/banking/cmake_install.cmake",
-		"/Users/mac/workspace/projects/lab05/_build/third-party/gtest/cmake_install.cmake",
-		"/Users/mac/workspace/projects/lab05/_build/third-party/gtest/googlemock/cmake_install.cmake",
-		"/Users/mac/workspace/projects/lab05/_build/third-party/gtest/googlemock/gtest/cmake_install.cmake",
-		"/Users/mac/workspace/projects/lab05/_build/tests/cmake_install.cmake"
+		"/Users/mac/workspace/projects/lab06/_build/cmake_install.cmake",
+		"/Users/mac/workspace/projects/lab06/_build/banking/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

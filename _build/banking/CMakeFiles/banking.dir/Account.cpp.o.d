@@ -1,6 +1,6 @@
 banking/CMakeFiles/banking.dir/Account.cpp.o: \
-  /Users/mac/workspace/projects/lab05/homework/banking/Account.cpp \
-  /Users/mac/workspace/projects/lab05/homework/banking/Account.h \
+  /Users/mac/workspace/projects/lab06/homework/banking/Account.cpp \
+  /Users/mac/workspace/projects/lab06/homework/banking/Account.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

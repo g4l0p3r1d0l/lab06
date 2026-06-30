@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mac/workspace/projects/lab05/homework
+CMAKE_SOURCE_DIR = /Users/mac/workspace/projects/lab06/homework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mac/workspace/projects/lab05/_build
+CMAKE_BINARY_DIR = /Users/mac/workspace/projects/lab06/_build
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/check.dir/depend.make
@@ -73,32 +73,32 @@ tests/CMakeFiles/check.dir/codegen:
 .PHONY : tests/CMakeFiles/check.dir/codegen
 
 tests/CMakeFiles/check.dir/test_account.cpp.o: tests/CMakeFiles/check.dir/flags.make
-tests/CMakeFiles/check.dir/test_account.cpp.o: /Users/mac/workspace/projects/lab05/homework/tests/test_account.cpp
+tests/CMakeFiles/check.dir/test_account.cpp.o: /Users/mac/workspace/projects/lab06/homework/tests/test_account.cpp
 tests/CMakeFiles/check.dir/test_account.cpp.o: tests/CMakeFiles/check.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mac/workspace/projects/lab05/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/check.dir/test_account.cpp.o"
-	cd /Users/mac/workspace/projects/lab05/_build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/check.dir/test_account.cpp.o -MF CMakeFiles/check.dir/test_account.cpp.o.d -o CMakeFiles/check.dir/test_account.cpp.o -c /Users/mac/workspace/projects/lab05/homework/tests/test_account.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mac/workspace/projects/lab06/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/check.dir/test_account.cpp.o"
+	cd /Users/mac/workspace/projects/lab06/_build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/check.dir/test_account.cpp.o -MF CMakeFiles/check.dir/test_account.cpp.o.d -o CMakeFiles/check.dir/test_account.cpp.o -c /Users/mac/workspace/projects/lab06/homework/tests/test_account.cpp
 
 tests/CMakeFiles/check.dir/test_account.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/check.dir/test_account.cpp.i"
-	cd /Users/mac/workspace/projects/lab05/_build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/workspace/projects/lab05/homework/tests/test_account.cpp > CMakeFiles/check.dir/test_account.cpp.i
+	cd /Users/mac/workspace/projects/lab06/_build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/workspace/projects/lab06/homework/tests/test_account.cpp > CMakeFiles/check.dir/test_account.cpp.i
 
 tests/CMakeFiles/check.dir/test_account.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/check.dir/test_account.cpp.s"
-	cd /Users/mac/workspace/projects/lab05/_build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/workspace/projects/lab05/homework/tests/test_account.cpp -o CMakeFiles/check.dir/test_account.cpp.s
+	cd /Users/mac/workspace/projects/lab06/_build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/workspace/projects/lab06/homework/tests/test_account.cpp -o CMakeFiles/check.dir/test_account.cpp.s
 
 tests/CMakeFiles/check.dir/test_transaction.cpp.o: tests/CMakeFiles/check.dir/flags.make
-tests/CMakeFiles/check.dir/test_transaction.cpp.o: /Users/mac/workspace/projects/lab05/homework/tests/test_transaction.cpp
+tests/CMakeFiles/check.dir/test_transaction.cpp.o: /Users/mac/workspace/projects/lab06/homework/tests/test_transaction.cpp
 tests/CMakeFiles/check.dir/test_transaction.cpp.o: tests/CMakeFiles/check.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mac/workspace/projects/lab05/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/check.dir/test_transaction.cpp.o"
-	cd /Users/mac/workspace/projects/lab05/_build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/check.dir/test_transaction.cpp.o -MF CMakeFiles/check.dir/test_transaction.cpp.o.d -o CMakeFiles/check.dir/test_transaction.cpp.o -c /Users/mac/workspace/projects/lab05/homework/tests/test_transaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mac/workspace/projects/lab06/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/check.dir/test_transaction.cpp.o"
+	cd /Users/mac/workspace/projects/lab06/_build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/check.dir/test_transaction.cpp.o -MF CMakeFiles/check.dir/test_transaction.cpp.o.d -o CMakeFiles/check.dir/test_transaction.cpp.o -c /Users/mac/workspace/projects/lab06/homework/tests/test_transaction.cpp
 
 tests/CMakeFiles/check.dir/test_transaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/check.dir/test_transaction.cpp.i"
-	cd /Users/mac/workspace/projects/lab05/_build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/workspace/projects/lab05/homework/tests/test_transaction.cpp > CMakeFiles/check.dir/test_transaction.cpp.i
+	cd /Users/mac/workspace/projects/lab06/_build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/workspace/projects/lab06/homework/tests/test_transaction.cpp > CMakeFiles/check.dir/test_transaction.cpp.i
 
 tests/CMakeFiles/check.dir/test_transaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/check.dir/test_transaction.cpp.s"
-	cd /Users/mac/workspace/projects/lab05/_build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/workspace/projects/lab05/homework/tests/test_transaction.cpp -o CMakeFiles/check.dir/test_transaction.cpp.s
+	cd /Users/mac/workspace/projects/lab06/_build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/workspace/projects/lab06/homework/tests/test_transaction.cpp -o CMakeFiles/check.dir/test_transaction.cpp.s
 
 # Object files for target check
 check_OBJECTS = \
@@ -112,23 +112,19 @@ tests/check: tests/CMakeFiles/check.dir/test_account.cpp.o
 tests/check: tests/CMakeFiles/check.dir/test_transaction.cpp.o
 tests/check: tests/CMakeFiles/check.dir/build.make
 tests/check: banking/libbanking.a
-tests/check: third-party/gtest/googlemock/gtest/libgtest_main.a
-tests/check: third-party/gtest/googlemock/libgmock_main.a
-tests/check: third-party/gtest/googlemock/libgmock.a
-tests/check: third-party/gtest/googlemock/gtest/libgtest.a
 tests/check: tests/CMakeFiles/check.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mac/workspace/projects/lab05/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable check"
-	cd /Users/mac/workspace/projects/lab05/_build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/check.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mac/workspace/projects/lab06/_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable check"
+	cd /Users/mac/workspace/projects/lab06/_build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/check.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/check.dir/build: tests/check
 .PHONY : tests/CMakeFiles/check.dir/build
 
 tests/CMakeFiles/check.dir/clean:
-	cd /Users/mac/workspace/projects/lab05/_build/tests && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
+	cd /Users/mac/workspace/projects/lab06/_build/tests && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/check.dir/clean
 
 tests/CMakeFiles/check.dir/depend:
-	cd /Users/mac/workspace/projects/lab05/_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mac/workspace/projects/lab05/homework /Users/mac/workspace/projects/lab05/homework/tests /Users/mac/workspace/projects/lab05/_build /Users/mac/workspace/projects/lab05/_build/tests /Users/mac/workspace/projects/lab05/_build/tests/CMakeFiles/check.dir/DependInfo.cmake "--color=$(COLOR)" check
+	cd /Users/mac/workspace/projects/lab06/_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mac/workspace/projects/lab06/homework /Users/mac/workspace/projects/lab06/homework/tests /Users/mac/workspace/projects/lab06/_build /Users/mac/workspace/projects/lab06/_build/tests /Users/mac/workspace/projects/lab06/_build/tests/CMakeFiles/check.dir/DependInfo.cmake "--color=$(COLOR)" check
 .PHONY : tests/CMakeFiles/check.dir/depend
 
